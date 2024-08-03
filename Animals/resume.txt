@@ -1,0 +1,235 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Aman Baldha} \\ \vspace{10pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 9979901290  ~ \href{mailto:amanbaldha01@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{amanbaldha01@gmail.com}} ~ 
+    \href{https://linkedin.com/in/amanbaldha/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/amanbaldha}}  ~
+    \href{https://github.com/amanbaldha}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/amanbaldha}}
+    \vspace{-8pt}
+\end{center}
+
+
+
+%-----------INVOLVEMENT---------------
+\section{Objective}
+   
+            \resumeItemListStart
+                \resumeItem{Enthusiastic MCA student with strong expertise in WordPress, PHP, HTML, CSS, and Javascript. Experienced in theme and plugin development, with a focus on optimizing websites for user experience. Proficient in using Git and GitHub for version control and familiar with Linux-based environments. Skilled in database management with MySQL and MongoDB. Passive about leveraging technical skills and creativity in a collaborative team setting to deliver innovative web solutions and continuously improve site functionality and design.}
+             \resumeItemListEnd
+        
+    
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {LJ University (Jul 2023 - Jun 2025)}{SPI - 8.00/10 }
+      {Master of Computer Applications (MCA)}{Ahmedabad, Gujarat }
+
+
+      \resumeSubheading
+      {SDJ International College (Jun 2020 - Feb 2023)}{CGPA - 7.02/10}
+      {Bachelor of Computer Applications (BCA)}{Surat, Gujarat }
+
+      \resumeSubheading
+      {Arpan Vidhya Sankul (Mar 2020)}{Percentage - 77.57}
+      {12th Commerce}{Surat, Gujarat }
+
+      \resumeSubheading
+      {Arpan Vidhya Sankul (Mar 2018)}{Percentage - 70.33}
+      {10th}{Surat, Gujarat }
+      
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Aryu Herb} $|$ \emph{PHP, HTML, CSS, JavaScript, MySQL}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a comprehensive eCommerce platform, AryuHerb, for Ayurvedic medicine sales using PHP, HTML, CSS, and JavaScript.}
+            \resumeItem{Implemented a backend admin panel for efficient inventory management, order processing, and customer service, streamlining business operations and enhancing efficiency.}
+            \resumeItem{Integrated a dynamic product catalog with advanced search and filtering options, improving product discoverability and user satisfaction.}
+            \resumeItem{Utilized modern web development practices to optimize performance and ensure seamless cross-device compatibility.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+     
+          \resumeProjectHeading
+          {\textbf{Food Exploria} $|$ \emph{PHP, HTML, CSS, JS, MySQL}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a Restaurant Management System with billing functionality.}
+            \resumeItem{Implemented a MySQL database for efficient data management, enabling quick access to customer and order information and seamless integration with the front-end.}
+            \resumeItem{Restaurant Management System with Billing Facility also Provide attractive UI to Increase Online Food Order
+At a Table.}
+            \resumeItem{Designed an attractive User-Friendly Website to enhance user experience and encourage online food orders at the table.}
+            \resumeItem{Focused on improving order accuracy and operational efficiency through streamlined processes.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, C++, Java, PHP, HTML, CSS, JavaScript, SQL, MongoDB} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Sublime Text, Android Studio} \\
+     \textbf{Technologies/Frameworks}{: Linux, Git, GitHub, Canva, Wix, WordPress} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+ 
+
+%------RELEVANT COURSEWORK-------
+\section{Certification Courses}
+  \resumeItemListStart
+
+             \resumeItem{\textbf{Spoken-Tutorial } $|$ \emph{JavaScript }}{ \href{https://drive.google.com/file/d/1CJJt7l9mSYWHL5RPkmhcmAxw9vMiOifU/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+               \resumeItem{\textbf{Spoken-Tutorial } $|$ \emph{RDBMS PostgreSQL}}{ \href{https://drive.google.com/file/d/1posWwS34Hj17d0mFTUBTzjC8b_UUCF3F/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+            \resumeItem{\textbf{Coursera} $|$ \emph{Java Programming: Arrays, Lists, and Structured Data}}{ \href{https://drive.google.com/file/d/1e2-cit3G2pBbl8n6ygvCuOORph-PZZic/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+            \resumeItem{\textbf{Coursera} $|$ \emph{IBM Hands-on Introduction to Linux Commands and Shell Scripting }}{ \href{https://drive.google.com/file/d/1qJNiM8HL6OK0szES_vWRrgexPfOPndn3/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+            \resumeItem{\textbf{Coursera} $|$ \emph{IBM What is Data Science? }}{ \href{https://drive.google.com/file/d/1ulI3ae69OdaTkjhgFcSgXz9d24ndGO7S/view?usp=drive_link}{\textcolor{blue}{Certificate}}}
+             
+     \resumeItemListEnd
+
+
+%-----------INVOLVEMENT---------------
+\section{Hobbies}
+   
+            \resumeItemListStart
+                \resumeItem{Bike Riding}
+                \resumeItem{Music}
+                \resumeItem{listening Podcast}
+            \resumeItemListEnd
+        
+
+
+
+\end{document}
